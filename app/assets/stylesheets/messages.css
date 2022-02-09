@@ -7,7 +7,6 @@
   width: 300px;
   height: 100vh;
 }
-
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
@@ -53,9 +52,17 @@
 }
 .chat-header {
   height: 100px;
-  padding: 0 40px;  
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+}
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
 }
 
 .header-title {
@@ -114,13 +121,13 @@
 .form {
   background-color: #DDDDDD;
   height: 90px;
-  padding: 20px 40px;   
-  display: flex;  
+  padding: 20px 40px;
+  display: flex;
 }
 
 .form-input {
   background-color: white;
-  display: flex;  
+  display: flex;
   width: 100%;
 }
 
